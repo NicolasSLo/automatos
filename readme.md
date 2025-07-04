@@ -10,7 +10,7 @@ O projeto é composto por um único arquivo Python que permite ao usuário escol
 
 ### Descrição da Linguagem
 
-[cite_start]O AFD implementado reconhece cadeias binárias que representam números inteiros divisíveis por 4[cite: 9]. [cite_start]Um número binário é múltiplo de 4 se o seu sufixo for `00` (termina com dois zeros)[cite: 9]. [cite_start]O autômato simula a leitura desses números bit a bit e verifica se a palavra atende a essa regra[cite: 9].
+[cite_start]O AFD implementado reconhece cadeias binárias que representam números inteiros divisíveis por 4. [cite_start]Um número binário é múltiplo de 4 se o seu sufixo for `00` (termina com dois zeros). [cite_start]O autômato simula a leitura desses números bit a bit e verifica se a palavra atende a essa regra.
 
 **Exemplos de palavras aceitas:**
 * `100`
@@ -42,14 +42,14 @@ O estado inicial é $q1$. O estado de aceitação é $q4$.
 
 ### Exemplo de Execução (AFD)
 
-**Palavra: `100`** [cite: 309]
+**Palavra: `100`**
 * Estado atual: q1, lê `1` $\rightarrow$ vai para q2
 * Estado atual: q2, lê `0` $\rightarrow$ vai para q3
 * Estado atual: q3, lê `0` $\rightarrow$ vai para q4
 * Estado final: q4 (estado de aceitação)
 * **Resultado: Aceita**
 
-[cite_start]**Palavra: `101`** [cite: 318]
+[cite_start]**Palavra: `101`**
 * Estado atual: q1, lê `1` $\rightarrow$ vai para q2
 * Estado atual: q2, lê `0` $\rightarrow$ vai para q3
 * Estado atual: q3, lê `1` $\rightarrow$ vai para q2
